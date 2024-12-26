@@ -1,0 +1,57 @@
+input {
+	margin-left: 126.09px;
+	width: 606.55px;
+	height: 46.8px;
+	background-color: #2f2424;
+	border-style: none;
+}
+
+label {
+	margin-left: 1;
+
+	color: #7e6969;
+	background-color: #1f1818;
+}
+.create-account-form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	color: #fff;
+}
+
+.create-account-form h1 {
+	margin-bottom: 1rem;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group label {
+	margin-bottom: 0.25rem;
+}
+
+.form-check {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.submit-btn {
+	background-color: #f00;
+	border: none;
+	color: #fff;
+	padding: 0.75rem;
+	cursor: pointer;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+.submit-btn:hover {
+	background-color: #cc0000;
+}
+
+.point {
+	color: red;
+}
