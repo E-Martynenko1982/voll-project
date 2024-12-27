@@ -1,4 +1,20 @@
-input {
+.form-group_input-userid-icon {
+	background: url(../../assets/icons/user-icon.png) no-repeat right 40px center;
+}
+
+.form-group_input-lock-icon {
+	background: url(../../assets/icons/lock.png) no-repeat right 40px center;
+}
+
+.form-group_input-user-icon {
+	background: url(../../assets/icons/user-solid.png) no-repeat right 40px center;
+}
+
+.form-group_input-email-icon {
+	background: url(../../assets/icons/mail-icon.png) no-repeat right 40px center;
+}
+
+.form-group_input {
 	margin-left: 126.09px;
 	width: 606.55px;
 	height: 46.8px;
@@ -6,12 +22,33 @@ input {
 	border-style: none;
 }
 
-label {
-	margin-left: 1;
+.form-group_input_info {
+	margin-top: 9px;
+	font-size: 13px;
+	color: #5d4d4d;
+}
 
+.form-group_input_info::before {
+	content: ". ";
+	position: relative;
+	top: -5px;
+	margin-left: 130px;
+}
+
+.form-group_input-label {
+	position: relative;
+	top: 13px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: 148.06px;
+	height: 19px;
+	max-width: fit-content;
 	color: #7e6969;
 	background-color: #1f1818;
+
+	font-size: 12px;
 }
+
 .create-account-form {
 	display: flex;
 	flex-direction: column;

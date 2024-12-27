@@ -11,29 +11,30 @@ function CreateAccount() {
       <h1>Create an account<span className='point'>.</span></h1>
 
       <div className="form-group">
-        <label htmlFor="userId">User ID</label>
-        <input id="userId" type="text" required />
+        <label className='form-group_input-label' htmlFor="userId">User ID</label>
+        <input className='form-group_input form-group_input-userid-icon' id="userId" type="text" required />
       </div>
 
       <div className="form-group">
-        <label htmlFor="password">Password</label>
-        <input id="password" type="password" minLength={8} required />
-        <small>8 characters minimum</small>
+        <label className='form-group_input-label' htmlFor="password">Password</label>
+        <input className='form-group_input form-group_input-lock-icon' id="password" type="password" minLength={8} required />
+        <span className='form-group_input_info'>8 characters minimum</span>
       </div>
 
       <div className="form-group">
-        <label htmlFor="accountName">Account Name</label>
-        <input id="accountName" type="text" required />
+        <label className='form-group_input-label' htmlFor="accountName">Account Name</label>
+        <input className='form-group_input form-group_input-user-icon' id="accountName" type="text" required />
+        <span className='form-group_input_info'>Visible nickname for your profile</span>
       </div>
 
       <div className="form-group">
-        <label htmlFor="email">Email</label>
-        <input id="email" type="email" required />
+        <label className='form-group_input-label' htmlFor="email">Email</label>
+        <input className='form-group_input form-group_input-email-icon' id="email" type="email" required />
       </div>
 
       <div className="form-group">
-        <label htmlFor="verificationCode">Verification Code</label>
-        <input id="verificationCode" type="text" required />
+        <label className='form-group_input-label' htmlFor="verificationCode">Verification Code</label>
+        <input className='form-group_input form-group_input-email-icon' id="verificationCode" type="text" required />
       </div>
 
       <div className="form-check">
