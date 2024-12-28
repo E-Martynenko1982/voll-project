@@ -1,0 +1,42 @@
+@use "../../styles/variables.scss" as vars;
+
+.layout-container {
+  display: flex;
+  width: 1723.58px;
+  height: 1080px;
+  padding: 29.13px;
+
+  &__image-column {
+    flex: 1;
+    width: 796.64px;
+    height: 1021.11px;
+    background: url("/images/dragon.jpg") center center;
+    background-size: cover;
+    position: relative;
+  }
+
+  &__brand {
+    position: absolute;
+    top: 960px;
+    left: 30px;
+    color: vars.$color-white;
+  }
+
+  &__logo {
+    position: absolute;
+    width: 64px;
+    height: 33px;
+    top: 30px;
+    left: 30px;
+    color: vars.$color-white;
+  }
+
+  &__form-column {
+    width: 868.28px;
+    height: 1021.11px;
+    background-color: vars.$background-body-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

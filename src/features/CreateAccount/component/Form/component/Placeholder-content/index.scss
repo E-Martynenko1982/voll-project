@@ -1,0 +1,17 @@
+@use "../../../../../../styles/variables.scss" as vars;
+
+.placeholder-content {
+  display: block;
+  position: relative;
+  left: 425px;
+  bottom: 5px;
+  width: 107px;
+  height: 26px;
+  line-height: 25px;
+  border-radius: 1px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  color: vars.$placeholder-color;
+  background-color: vars.$placeholder-background-color;
+}

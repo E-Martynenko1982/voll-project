@@ -1,7 +1,7 @@
 function TermsOfService() {
   return (
     <div>
-      <h2>TermsOfService</h2>
+      <h2 style={{ color: 'white' }}>TermsOfService</h2>
     </div>
   )
 }

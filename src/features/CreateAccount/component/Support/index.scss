@@ -1,0 +1,11 @@
+@use "../../../../styles/variables.scss" as vars;
+
+.container {
+  display: flex;
+  margin-top: 57px;
+  margin-left: 214px;
+
+  &__link {
+    color: vars.$links-color;
+  }
+}

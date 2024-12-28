@@ -1,7 +1,7 @@
 function PrivacyPolicy() {
   return (
     <div>
-      <h2>PrivacyPolicy</h2>
+      <h2 style={{ color: 'white' }}>PrivacyPolicy</h2>
     </div>
   )
 }

@@ -1,15 +1,16 @@
 import PropTypes from 'prop-types';
-import './Layout.css';
+import './index.scss';
 
 function Layout({ children }) {
   return (
     <div className='layout-container'>
-      <div className="layout-image-column">
-        <div className="layout-image-overlay">
-          <h2 className="layout-brand">Nick Mine Inc.</h2>
-        </div>
+      <div className="layout-container__image-column">
+
+        <img className='layout-container__logo' src="/images/logo.png" alt="logo" />
+        <h2 className="layout-container__brand">Nick Mine Inc.</h2>
+
       </div>
-      <div className="layout-form-column">
+      <div className="layout-container__form-column">
         {children}
       </div>
     </div>

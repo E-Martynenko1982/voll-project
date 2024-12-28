@@ -3,7 +3,7 @@
 function SignIn() {
   return (
     <div>
-      <h2>Sign In</h2>
+      <h2 style={{ color: 'white' }}>Sign In</h2>
     </div>
   )
 }
