@@ -1,0 +1,22 @@
+@use "./variables.scss" as vars;
+
+// 4K: min-width: 3840px
+@mixin windows-pc-4k-desktop {
+  @media (min-width: vars.$breakpoint-4k-min) {
+    @content;
+  }
+}
+
+// 2K: max-width: 2560px
+@mixin windows-pc-2k-desktop {
+  @media (max-width: vars.$breakpoint-2k-max) {
+    @content;
+  }
+}
+
+// FullHD: max-width: 1920px
+@mixin windows-pc-fullhd-desktop {
+  @media (max-width: vars.$breakpoint-fhd-max) {
+    @content;
+  }
+}

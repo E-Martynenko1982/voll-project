@@ -10,3 +10,18 @@ $placeholder-color: #988080;
 $placeholder-background-color: #453535;
 $input-info-color: #5d4d4d;
 $check-label-color: #504242;
+
+//width
+$bp-4k-width: 3840px;
+$bp-2k-width: 2560px;
+$bp-fullhd-width: 1920px;
+
+// height
+$bp-4k-height: 2160px;
+$bp-2k-height: 1140px;
+$bp-fullhd-height: 1080px;
+
+//breackpoints
+$breakpoint-4k-min: 3840px; // all >= 3840px — condition 4K
+$breakpoint-2k-max: 2560px; // all <= 2560px — condition 2K
+$breakpoint-fhd-max: 1920px; // all <= 1920px — condition FullHD

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './index.scss';
 import PlaceholderContent from './component/Placeholder-content';
+import './index.scss';
 
 
 function Form() {
@@ -80,7 +80,7 @@ function Form() {
           required
         />
         {!email && (
-          <div className="fake-placeholder">
+          <div>
             <PlaceholderContent />
           </div>
         )}
