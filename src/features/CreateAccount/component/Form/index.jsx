@@ -5,7 +5,7 @@ import './index.scss';
 
 
 function Form() {
-  const [email, setEmail] = useState('')
+  const [email, setEmail] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: form logic
