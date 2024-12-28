@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import './CreateAccount.css';
+
+import './index.css';
 
 function CreateAccount() {
   const handleSubmit = (e) => {
@@ -8,10 +9,14 @@ function CreateAccount() {
   };
 
   return (
+
     <form className="create-account-form" onSubmit={handleSubmit}>
+      <div className="form-icon">
+        <img src="../../../public/images/flag-icon.png" alt="flag" />
+      </div>
       <div className="form-title">
-        <h1>Create an account<span className='point'>.</span></h1>
-        <p className='form-title__text'>Already have an account? <Link className='point' to="/sign">Sign in</Link></p>
+        <h1>Create an account<span className='form-title__point'></span></h1>
+        <p className='form-title__text'>Already have an account? <Link className='form-title__link' to="/sign">Sign in</Link></p>
       </div>
 
 

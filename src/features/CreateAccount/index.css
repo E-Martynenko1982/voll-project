@@ -1,17 +1,22 @@
+.form-icon {
+	margin-left: 770px;
+	margin-top: -170px;
+}
+
 .form-group__input-userid-icon {
-	background: url(../../assets/icons/user-icon.png) no-repeat right 40px center;
+	background: url(/images/user-icon.png) no-repeat right 40px center;
 }
 
 .form-group__input-lock-icon {
-	background: url(../../assets/icons/lock.png) no-repeat right 40px center;
+	background: url(/images/lock.png) no-repeat right 40px center;
 }
 
 .form-group__input-user-icon {
-	background: url(../../assets/icons/user-solid.png) no-repeat right 40px center;
+	background: url(/images/user-solid.png) no-repeat right 40px center;
 }
 
 .form-group__input-email-icon {
-	background: url(../../assets/icons/mail-icon.png) no-repeat right 40px center;
+	background: url(/images/mail-icon.png) no-repeat right 40px center;
 }
 
 .create-account-form {
@@ -22,6 +27,11 @@
 	color: #fff;
 }
 
+.form-title {
+	margin-top: 48px;
+	width: 606.55px;
+}
+
 .create-account-form h1 {
 	margin: 0 0 10px;
 	font-size: 36px;
@@ -30,6 +40,10 @@
 .form-title__text {
 	font-size: 15px;
 	color: #7e6969;
+}
+
+.form-title__link {
+	color: #e80004;
 }
 
 .form-group {
@@ -143,6 +157,11 @@
 	background-color: #cc0000;
 }
 
-.point {
-	color: red;
+.form-title__point {
+	display: inline-block;
+	margin-left: 5px;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #e80004;
 }

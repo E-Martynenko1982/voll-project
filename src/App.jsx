@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout/Layout';
-import CreateAccount from './pages/CreateAccount/CreateAccount';
-import PrivacyPolicy from './components/PrivacyPolicy';
-import TermsOfService from './components/TermsOfService';
-import SignIn from './components/SignIn';
+import Layout from './features/Layout';
+import CreateAccount from './features/CreateAccount/';
+import PrivacyPolicy from './features/CreateAccount/component/PrivacyPolicy';
+import TermsOfService from './features/CreateAccount/component/TermsOfService';
+import SignIn from './features/CreateAccount/component/SignIn';
 
 
 

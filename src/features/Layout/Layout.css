@@ -9,7 +9,7 @@
 	flex: 1;
 	width: 796.64px;
 	height: 1021.11px;
-	background: url("../../assets/images/dragon.jpg") center center;
+	background: url("/images/dragon.jpg") center center;
 	background-size: cover;
 	position: relative;
 }
